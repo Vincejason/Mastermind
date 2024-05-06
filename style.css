@@ -7,7 +7,6 @@
     text-decoration: none;
     border: none;
     outline: none;
-
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
@@ -475,10 +474,10 @@ span{
 }
 @media (max-width: 365px){
     .home-img img {
-        width: 90vw;
+        width: 50vw;
     }
     .about-img img{
-        width: 90vw;
+        width: 35vw;
     }
     .footer{
         flex-direction: column-reverse;
@@ -511,3 +510,5 @@ span{
         max-width: 320px;
         margin: 0 auto; /* Center the container */
     }}
+    
+    
