@@ -7,6 +7,7 @@
     text-decoration: none;
     border: none;
     outline: none;
+
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
@@ -487,3 +488,26 @@ span{
         margin-top: 2rem;  
     }
 }
+@media only screen and (max-width: 320px) {
+    .header, .home, .about, .services, .portfolio, .contact, .footer {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .about-img img{
+        width: 35vw;
+    }
+    .footer {
+        text-align: center; /* Center align the footer content */
+        padding: 1rem; /* Add some padding */
+    }
+    .footer-text p {
+        margin-bottom: 1rem; /* Add space below the copyright text */
+    }
+    .footer-iconTop {
+        display: flex;
+        justify-content: center; /* Center the back-to-top icon */
+    }
+    .portfolio-container {
+        max-width: 320px;
+        margin: 0 auto; /* Center the container */
+    }}
